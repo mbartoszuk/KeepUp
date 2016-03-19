@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.maria.keepup.MainActivity">
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:paddingTop="8dp"
+        android:layout_marginBottom="8dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:mcv_showOtherDates="all"
+        app:mcv_selectionColor="#E91E63" />
+
+    <Button
+        android:id="@+id/button_createAppointment"
+        android:text="Create an appointment"
+        android:textSize="14sp"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#398399"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button_editAppointment"
+        android:text="View / edit appointments"
+        android:textSize="14sp"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#398399"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button_deleteAppointment"
+        android:text="Delete an appointment"
+        android:textSize="14sp"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#398399"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button_moveAppointment"
+        android:text="Move an appointment"
+        android:textSize="14sp"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#398399"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button_search"
+        android:text="Search"
+        android:textSize="14sp"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#398399"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
