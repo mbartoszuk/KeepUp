@@ -17,7 +17,7 @@
         android:layout_marginBottom="8dp"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         app:mcv_showOtherDates="all"
-        app:mcv_selectionColor="#E91E63" />
+        app:mcv_selectionColor="@color/pink" />
 
     <Button
         android:id="@+id/button_createAppointment"
@@ -28,7 +28,7 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:layout_marginTop="10dp"
-        android:background="#398399"
+        android:background="@color/darkblue"
         android:gravity="center"
         android:textColor="#FFFFFF" />
 
@@ -41,7 +41,7 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:layout_marginTop="10dp"
-        android:background="#398399"
+        android:background="@color/darkblue"
         android:gravity="center"
         android:textColor="#FFFFFF" />
 
@@ -54,7 +54,7 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:layout_marginTop="10dp"
-        android:background="#398399"
+        android:background="@color/darkblue"
         android:gravity="center"
         android:textColor="#FFFFFF" />
 
@@ -67,7 +67,7 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:layout_marginTop="10dp"
-        android:background="#398399"
+        android:background="@color/darkblue"
         android:gravity="center"
         android:textColor="#FFFFFF" />
 
@@ -80,7 +80,7 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:layout_marginTop="10dp"
-        android:background="#398399"
+        android:background="@color/darkblue"
         android:gravity="center"
         android:textColor="#FFFFFF" />
 
