@@ -15,12 +15,13 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+//Represents the Appointments Table.
 public class AppointmentsData extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "appointments3.db";
     private static final int DATABASE_VERSION = 1;
 
-    /** Create a helper object for the Events database */
+    //Create a helper object for the Events database.
     public AppointmentsData(Context ctx) {
         super(ctx, DATABASE_NAME, null, DATABASE_VERSION);
     }
